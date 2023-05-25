@@ -17,7 +17,7 @@ namespace first_asp_app.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.15")
+                .HasAnnotation("ProductVersion", "6.0.16")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -100,6 +100,48 @@ namespace first_asp_app.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "admin",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "8cd8e6ba-7bd3-43bb-86db-61f53ddf4ef8",
+                            DateJoined = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "admin@test.com",
+                            EmailConfirmed = true,
+                            Firstname = "Admin",
+                            Lastname = "User",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@TEST.COM",
+                            NormalizedUserName = "ADMIN@TEST.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAELKlX7ftNDDcEWQ3MDBE4Jc6zmy4tO+9MChRpMFwg3D9kRWvjrTNXKw4fQK4qBq/Hg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d835bb09-ff9e-40c7-84f2-b8c0ebb5d3ff",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@test.com"
+                        },
+                        new
+                        {
+                            Id = "user",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "ce5d3e0e-3608-45f6-81cc-cf1e1eaac16b",
+                            DateJoined = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "user@test.com",
+                            EmailConfirmed = true,
+                            Firstname = "Normal",
+                            Lastname = "User",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "USER@TEST.COM",
+                            NormalizedUserName = "USER@TEST.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAoqnAPr9k0kl6zg9Mr30LzMPm4fCL0d2f9UKOPi3aX++1VnfJn/gw0jLxYDSMQj+w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "21821510-39eb-420d-904a-43431b2c328d",
+                            TwoFactorEnabled = false,
+                            UserName = "USER@TEST.COM"
+                        });
                 });
 
             modelBuilder.Entity("first_asp_app.Data.LeaveAllocation", b =>
@@ -184,6 +226,22 @@ namespace first_asp_app.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            ConcurrencyStamp = "6ea30fad-6c30-4d7a-b398-4f313fab7e3e",
+                            Name = "Administrator",
+                            NormalizedName = "ADMINISTRATOR"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            ConcurrencyStamp = "6b194c81-ac65-4dad-b830-988b003bbf67",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -273,6 +331,18 @@ namespace first_asp_app.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "admin",
+                            RoleId = "1"
+                        },
+                        new
+                        {
+                            UserId = "user",
+                            RoleId = "2"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

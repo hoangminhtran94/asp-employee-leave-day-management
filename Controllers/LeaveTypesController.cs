@@ -9,9 +9,12 @@ using first_asp_app.Data;
 using AutoMapper;
 using first_asp_app.Models;
 using first_asp_app.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using first_asp_app.Constanst;
 
 namespace first_asp_app.Controllers
 {
+    [Authorize(Roles =Roles.Administrator)]
     public class LeaveTypesController : Controller
     {
         private readonly ILeaveTypeRepository leaveTypeRepository;

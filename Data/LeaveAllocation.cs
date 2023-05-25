@@ -13,5 +13,6 @@ namespace first_asp_app.Data
         public LeaveType LeaveType { get; set; }
 
         public int LeaveTypeId { get; set; }
+        public int Period { get; set; }
     }
 }
