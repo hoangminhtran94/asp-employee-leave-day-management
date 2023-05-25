@@ -1,0 +1,37 @@
+﻿@model LeaveTypeVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create new leave type</h1>
+<h1>Create</h1>
+<h4>LeaveType</h4>
+<hr />
+<div class="row ">
+    <div class="col-4 col-md-8">
+        <form class="d-flex flex-column gap-3" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DefaultDays" class="control-label"></label>
+                <input asp-for="DefaultDays" class="form-control" />
+                <span asp-validation-for="DefaultDays" class="text-danger"></span>
+            </div>
+            <div class="form-group d-flex gap-3">
+                <a class="btn btn-dark" asp-action="Index">Back to List</a>
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

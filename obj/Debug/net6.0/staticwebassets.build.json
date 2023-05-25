@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hqHobJ4Yll6Y5OnwIgo2aN7x/Me2qd485LO9/d83xvc=",
+  "Hash": "smtxOw5BFNmSck2OBnQpgJYcchvR+cFHrlF3309E858=",
   "Source": "first-asp-app",
   "BasePath": "_content/first-asp-app",
   "Mode": "Default",
@@ -2089,6 +2089,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\Desktop\\WebDevelopment\\.Net\\repos\\first-asp-app\\wwwroot\\lib\\sweetalert\\sweetalert.min.js",
+      "SourceId": "first-asp-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\WebDevelopment\\.Net\\repos\\first-asp-app\\wwwroot\\",
+      "BasePath": "_content/first-asp-app",
+      "RelativePath": "lib/sweetalert/sweetalert.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\sweetalert\\sweetalert.min.js"
     }
   ]
 }
