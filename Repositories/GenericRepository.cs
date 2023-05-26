@@ -18,6 +18,13 @@ namespace first_asp_app.Repositories
             return entity;
         }
 
+        public async Task<List<T>> AddRangeAsync(List<T> entities)
+        {
+          await context.AddRangeAsync(entities);
+            await context.SaveChangesAsync();
+            return entities;
+        }
+
         public async Task DeleteAsync(int id)
         {
            var entity = await context.Set<T>().FindAsync(id);

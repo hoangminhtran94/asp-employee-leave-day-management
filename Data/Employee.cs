@@ -3,7 +3,7 @@
 namespace first_asp_app.Data
 {
     public class Employee: IdentityUser
-    {   
+    {
         public string? Firstname { get; set; }
         public string? Lastname { get; set; }
         public string? TaxId { get; set; }

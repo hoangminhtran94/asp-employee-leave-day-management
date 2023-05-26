@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using first_asp_app.Configurations.Entity;
+using first_asp_app.Models;
 
 namespace first_asp_app.Data
 {
@@ -19,5 +20,6 @@ namespace first_asp_app.Data
         }
         public DbSet<LeaveType> LeaveTypes { get; set; }
         public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
+        
     }
 }
