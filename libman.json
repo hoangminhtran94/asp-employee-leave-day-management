@@ -6,12 +6,21 @@
       "provider": "cdnjs",
       "library": "sweetalert@2.1.2",
       "destination": "wwwroot/lib/sweetalert/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "font-awesome@6.4.0",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-datetimepicker@2.5.20",
+      "destination": "wwwroot/lib/jquery-datetimepicker/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jqueryui@1.13.2",
+      "destination": "wwwroot/lib/jqueryui/"
     }
-  ,
-{
-  "provider": "cdnjs",
-  "library": "font-awesome@6.4.0",
-  "destination": "wwwroot/lib/font-awesome/"
-}
-]
+  ]
 }
