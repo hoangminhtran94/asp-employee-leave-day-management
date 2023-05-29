@@ -14,6 +14,8 @@ namespace first_asp_app.Configurations
             CreateMap<LeaveAllocation, LeaveAllocationVM>().ReverseMap();
             CreateMap<LeaveAllocation, LeaveAllocationEditVM>().ReverseMap();
             CreateMap<LeaveRequest, LeaveRequestCreateVM>().ReverseMap();
+            CreateMap<LeaveRequest, LeaveRequestVM>().ReverseMap();
+            CreateMap<LeaveRequest, EmployeeLeaveRequestViewVM>().ReverseMap();
         }
     }
 }

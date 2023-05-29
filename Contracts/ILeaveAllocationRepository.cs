@@ -8,5 +8,7 @@ namespace first_asp_app.Contracts
        Task LeaveAllocation(int leaveTypeId);
        Task<bool> AllocationExists(string employeeId, int leaveTypeId, int period);
         Task<EmployeeAllocationVM> GetEmployeeAllocations(string employeeId);
+        Task<LeaveAllocation?> GetEmployeeAllocations(string employeeId, int leaveTypeId);
+
     }
 }

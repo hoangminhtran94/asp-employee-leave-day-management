@@ -11,7 +11,7 @@ namespace first_asp_app.Data
 
         public int LeaveTypeId { get; set; }
 
-        public string RequestComments { get; set; }
+        public string? RequestComments { get; set; }
 
         public bool? Approved { get; set; }
         public bool? Cancelled { get; set; }

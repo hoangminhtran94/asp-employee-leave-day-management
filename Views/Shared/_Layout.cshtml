@@ -28,13 +28,13 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         
-                        @if(User.Identity?.IsAuthenticated == true)
+                        @if (User.IsInRole(Roles.User))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="LeaveRequests" asp-action="">Apply for Leave</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="LeaveRequests" asp-action="Create">Apply for Leave</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="" asp-action="">My Leave</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="LeaveRequests" asp-action="MyLeaves">My Leave</a>
                             </li>
                         }
                         
@@ -47,9 +47,9 @@
                                 <a class="nav-link dropdown-toogle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Leave Management</a>
                                 <ul class="dropdown-menu" aria-labelby="navbarDropdown">
                                     <li><a class="dropdown-item" asp-controller="LeaveTypes" asp-action="Index">Leave types</a></li>
-                                    <li><a class="dropdown-item" href="#">Leave Allocations</a></li>
-                                    <li><a class="dropdown-item" href="#">Leave Requests</a></li>
-                                    <li><a class="dropdown-item" href="#">Employee Management</a></li>
+  
+                                    <li><a class="dropdown-item" asp-controller="LeaveRequests" asp-action="Index" >Leave Requests</a></li>
+                              
                                 </ul>
                             </li>
                         }

@@ -38,6 +38,11 @@ namespace first_asp_app.Repositories
             return employeeAllocationVM;
         }
 
+        public async Task<LeaveAllocation?> GetEmployeeAllocations(string employeeId, int leaveTypeId)
+        {
+            return await context.LeaveAllocations.FirstOrDefaultAsync(q => q.EmployeeId == employeeId && q.LeaveTypeId == leaveTypeId);
+        }
+
         public async Task LeaveAllocation(int leaveTypeId)
         {
             var employees = await userManager.GetUsersInRoleAsync(Roles.User);
