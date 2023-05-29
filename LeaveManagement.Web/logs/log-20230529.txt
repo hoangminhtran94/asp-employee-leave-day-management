@@ -1,0 +1,28 @@
+2023-05-29 00:32:37.369 -04:00 [INF] Now listening on: https://localhost:7113
+2023-05-29 00:32:37.407 -04:00 [INF] Now listening on: http://localhost:5014
+2023-05-29 00:32:37.413 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-29 00:32:37.414 -04:00 [INF] Hosting environment: Development
+2023-05-29 00:32:37.415 -04:00 [INF] Content root path: C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\
+2023-05-29 00:37:10.120 -04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2023-05-29 01:29:31.077 -04:00 [INF] Now listening on: https://localhost:7113
+2023-05-29 01:29:31.115 -04:00 [INF] Now listening on: http://localhost:5014
+2023-05-29 01:29:31.121 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-29 01:29:31.123 -04:00 [INF] Hosting environment: Development
+2023-05-29 01:29:31.124 -04:00 [INF] Content root path: C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\
+2023-05-29 01:32:32.694 -04:00 [INF] Now listening on: https://localhost:7113
+2023-05-29 01:32:32.738 -04:00 [INF] Now listening on: http://localhost:5014
+2023-05-29 01:32:32.744 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-29 01:32:32.745 -04:00 [INF] Hosting environment: Development
+2023-05-29 01:32:32.745 -04:00 [INF] Content root path: C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\
+2023-05-29 01:52:09.575 -04:00 [INF] Now listening on: https://localhost:7113
+2023-05-29 01:52:09.624 -04:00 [INF] Now listening on: http://localhost:5014
+2023-05-29 01:52:09.630 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-29 01:52:09.631 -04:00 [INF] Hosting environment: Development
+2023-05-29 01:52:09.631 -04:00 [INF] Content root path: C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Web\
