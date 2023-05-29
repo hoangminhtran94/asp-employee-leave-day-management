@@ -180,7 +180,7 @@ namespace first_asp_app.Controllers
                 await leaveRequestRepository.CancelLeaveRequest(id);
             } catch
             {
-
+                ModelState.AddModelError(string.Empty, "An error has occured. Please Try again later");
             }
             return Redirect(nameof(MyLeaves));
         }

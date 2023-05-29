@@ -99,5 +99,12 @@ namespace first_asp_app.Repositories
             return model;
 
         }
+
+        public async Task CancelLeaveRequest(int leaveRequestId)
+        {
+            var leaveRequest = await GetAsync(leaveRequestId);
+            leaveRequest.Cancelled = true;
+            await UpdateAsync(leaveRequest);
+        }
     }
 }
