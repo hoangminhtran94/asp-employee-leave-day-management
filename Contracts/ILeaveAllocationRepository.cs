@@ -1,4 +1,4 @@
-﻿using first_asp_app.Data;
+﻿using LeaveManagement.Data;
 using first_asp_app.Models;
 
 namespace first_asp_app.Contracts

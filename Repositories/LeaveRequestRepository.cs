@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using first_asp_app.Contracts;
-using first_asp_app.Data;
+using LeaveManagement.Data;
 using first_asp_app.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

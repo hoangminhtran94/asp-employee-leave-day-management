@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using first_asp_app.Data;
+using LeaveManagement.Data;
 using first_asp_app.Contracts;
 using first_asp_app.Models;
 using Microsoft.AspNetCore.Authorization;
 using AutoMapper;
-using first_asp_app.Constanst;
+using LeaveManagement.Common.Constanst;
 
 namespace first_asp_app.Controllers
 {

@@ -1,5 +1,5 @@
 ﻿using first_asp_app.Contracts;
-using first_asp_app.Data;
+using LeaveManagement.Data;
 
 namespace first_asp_app.Repositories
 {

@@ -1,5 +1,5 @@
 ﻿using first_asp_app.Contracts;
-using first_asp_app.Data;
+using LeaveManagement.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace first_asp_app.Repositories

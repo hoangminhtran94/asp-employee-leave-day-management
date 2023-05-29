@@ -1,4 +1,4 @@
-﻿using first_asp_app.Data;
+﻿using LeaveManagement.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
