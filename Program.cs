@@ -5,6 +5,7 @@ using AutoMapper;
 using first_asp_app.Configurations;
 using first_asp_app.Contracts;
 using first_asp_app.Repositories;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.AddScoped<ILeaveAllocationRepository, LeaveAllocationRepository
 builder.Services.AddScoped<ILeaveRequestRepository, LeaveRequestRepository>();
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 builder.Services.AddControllersWithViews();
+builder.Host.UseSerilog((ctx, lc) =>
+  lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 var app = builder.Build();
 
