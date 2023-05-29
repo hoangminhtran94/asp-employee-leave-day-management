@@ -1,4 +1,4 @@
-﻿using first_asp_app.Models;
+﻿using LeaveManagement.Common.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;

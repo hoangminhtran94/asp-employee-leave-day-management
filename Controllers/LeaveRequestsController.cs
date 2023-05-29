@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LeaveManagement.Data;
-using first_asp_app.Contracts;
-using first_asp_app.Models;
+using LeaveManagement.Application.Contracts;
+using LeaveManagement.Common.Models;
 using Microsoft.AspNetCore.Authorization;
-using AutoMapper;
 using LeaveManagement.Common.Constanst;
 
 namespace first_asp_app.Controllers

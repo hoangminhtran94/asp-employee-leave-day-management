@@ -309,3 +309,7 @@ C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\obj\Debug\net6.0\
 C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\obj\Debug\net6.0\LeaveManagement.Web.pdb
 C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\obj\Debug\net6.0\LeaveManagement.Web.genruntimeconfig.cache
 C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\obj\Debug\net6.0\ref\LeaveManagement.Web.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\bin\Debug\net6.0\LeaveManagement.Application.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\first-asp-app\bin\Debug\net6.0\LeaveManagement.Application.pdb

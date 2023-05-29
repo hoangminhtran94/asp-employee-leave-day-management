@@ -2,9 +2,9 @@ using LeaveManagement.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
-using first_asp_app.Configurations;
-using first_asp_app.Contracts;
-using first_asp_app.Repositories;
+using LeaveManagement.Application.Configurations;
+using LeaveManagement.Application.Contracts;
+using LeaveManagement.Application.Repositories;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
