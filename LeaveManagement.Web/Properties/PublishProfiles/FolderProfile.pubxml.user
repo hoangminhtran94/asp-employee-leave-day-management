@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\leavemanagement</_PublishTargetUrl>
+    <History>True|2023-05-29T19:42:20.3036692Z;False|2023-05-29T15:40:16.6303855-04:00;False|2023-05-29T15:37:54.0557004-04:00;False|2023-05-29T15:30:58.2267646-04:00;False|2023-05-29T15:27:57.2368488-04:00;False|2023-05-29T15:25:46.7002358-04:00;False|2023-05-29T15:23:24.5760665-04:00;False|2023-05-29T15:20:14.1008819-04:00;False|2023-05-29T15:14:28.3382207-04:00;False|2023-05-29T15:11:08.1926314-04:00;False|2023-05-29T15:08:00.6123799-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="LeaveManagement.Data.ApplicationDbContext">
+      <Value>Server=localhost%3bDatabase=LeaveManagementNet6%3bTrusted_Connection=True%3bMultipleActiveResultSets=True%3bEncrypt=False</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

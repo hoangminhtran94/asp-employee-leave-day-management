@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\bin\Release\net6.0\LeaveManagement.Common.deps.json
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\bin\Release\net6.0\LeaveManagement.Common.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\bin\Release\net6.0\LeaveManagement.Common.pdb
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.AssemblyInfo.cs
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\refint\LeaveManagement.Common.dll
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\LeaveManagement.Common.pdb
+C:\Users\admin\Desktop\WebDevelopment\.Net\repos\LeaveManagement.Common\obj\Release\net6.0\ref\LeaveManagement.Common.dll
